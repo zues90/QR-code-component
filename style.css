@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+.qr{
+    height: 400px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.qr img[src="./images/image-qr-code.png"]{
+    background-color: white;
+    height: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.qr h3 {
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.qr p {
+    font-weight: 500;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
